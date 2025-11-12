@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    // --- Configuration ---
+    // --- Configuration --- 
     public Transform firePoint;     // The position where the bullet spawns
     public GameObject bulletPrefab; // The bullet asset we want to shoot
 
