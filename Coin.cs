@@ -27,7 +27,7 @@ public class Coin : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // If the object that hit us has the tag "Player" AND we haven't been triggered yet...
-        if (collision.CompareTag("Player") && !hasTriggered)
+        if (collision.CompareTag("nice person") && !hasTriggered)
         {
             // ...set hasTriggered to true so this can't run again.
             hasTriggered = true;
